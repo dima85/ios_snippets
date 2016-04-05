@@ -41,6 +41,8 @@ If all goes well, you are now ready to write your first test. Start by editing t
   - ```query("view marked:'switch'")``` - get views that has accessibility label 'switch'
    
   - To wait for element to apear, use: ```wait_for_element_exists("webView marked:'hello'")```
+  
+  - There are a lot of [predefined steps](https://github.com/calabash/calabash-ios/wiki/02-Predefined-steps) 
 
 - [WebView support](https://github.com/calabash/calabash-ios/wiki/06-WebView-Support#marked-api)
  
