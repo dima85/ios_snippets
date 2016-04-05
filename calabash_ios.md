@@ -32,7 +32,7 @@ If all goes well, you are now ready to write your first test. Start by editing t
 
   - If doesn't run your application, run this command in calabash console: ```start_test_server_in_background```
 
-- Query language:
+- [Query language](https://github.com/calabash/calabash-ios/wiki/Query-Language):
 
   - ```query("button")``` - get all button in screen
   
