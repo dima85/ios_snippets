@@ -28,12 +28,18 @@ If all goes well, you are now ready to write your first test. Start by editing t
 
 # Calabash usage
 - [Geting started](https://github.com/calabash/calabash-ios/wiki/Getting-Started)
-  - run debug console for calabash
+  - run debug console for calabash:
+    
     ```calabash-ios console```
-  - If doesn't run your application, run this command in calabash console
+
+  - If doesn't run your application, run this command in calabash console:
+   
     ```start_test_server_in_background```
 
-- Query language
+- Query language:
+
   - ```query("button")``` - get all button in screen
+  
   - ```query("button index:0 label")``` - get labels that is child of firt button 
+  
   - ```query("view marked:'switch'")``` - get views that has accessibility label 'switch'
