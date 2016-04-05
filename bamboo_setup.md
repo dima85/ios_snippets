@@ -9,6 +9,15 @@
   sudo gem install fastlane --verbose  
   sudo gem install scan
   ```
+### Plan configuration:
+
+- variables:
+  - clean = yes
+  - configuration = debug
+  - project =
+  - release = 1
+  - scheme = C24Hhv-Example
+  - workspace = Example/c24hhv.xcworkspace
 
 ### Define steps for plan
 
