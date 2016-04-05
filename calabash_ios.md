@@ -18,9 +18,11 @@ If it doesn't work in your project, see one of the tutorials mentioned on the Tu
 - ```calabash-ios gen```
 
 - In Xcode, build your project using the ```-cal``` scheme
+```-cal scheme```
 
--cal scheme
-Run the generated test!
+- Run the generated test!
+```cucumber```
 
-cucumber
 If all goes well, you are now ready to write your first test. Start by editing the file features/my_first.feature.
+
+###
