@@ -1,7 +1,6 @@
 # Calabash
 ### [Setup calabash for IOS](https://github.com/calabash/calabash-ios/wiki/calabash-ios-setup#setup-fast-track) 
 
-  ##### The fast-track instructions are EXPERIMENTAL.
   
   If it doesn't work in your project, see one of the tutorials mentioned on the Tutorial: [How to add Calabash to Xcode page](https://github.com/calabash/calabash-ios/wiki/Tutorial%3A-How-to-add-Calabash-to-Xcode).
   
