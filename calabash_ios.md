@@ -22,8 +22,7 @@ If it doesn't work in your project, see one of the tutorials mentioned on the Tu
 
 - In Xcode, build your project using the ```-cal``` scheme
 
-- Run the generated test!
-  ```cucumber```
+- Run the generated test! Run ```cucumber``` in terminal
 
 If all goes well, you are now ready to write your first test. Start by editing the file features/my_first.feature.
 
