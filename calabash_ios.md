@@ -28,13 +28,9 @@ If all goes well, you are now ready to write your first test. Start by editing t
 
 # Calabash usage
 - [Geting started](https://github.com/calabash/calabash-ios/wiki/Getting-Started)
-  - run debug console for calabash:
-    
-    ```calabash-ios console```
+  - run debug console for calabash: ```calabash-ios console```
 
-  - If doesn't run your application, run this command in calabash console:
-   
-    ```start_test_server_in_background```
+  - If doesn't run your application, run this command in calabash console: ```start_test_server_in_background```
 
 - Query language:
 
