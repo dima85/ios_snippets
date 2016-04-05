@@ -10,12 +10,11 @@ If it doesn't work in your project, see one of the tutorials mentioned on the Tu
 - Install calabash-cucumber gem (this make take some time because of dependencies)
   ```gem install calabash-cucumber```
 
-**Setup your project for Calabash-iOS.**
-
-- ```calabash-ios setup``` -  Answer the questions and read the output :)
-  Generate a skeleton features folder for your tests
-
-- ```calabash-ios gen```
+- **Setup your project for Calabash-iOS.**
+  ```calabash-ios setup``` -  Answer the questions and read the output :)
+  
+- Generate a skeleton features folder for your tests
+  ```calabash-ios gen```
 
 - In Xcode, build your project using the ```-cal``` scheme
   ```-cal scheme```
@@ -25,4 +24,4 @@ If it doesn't work in your project, see one of the tutorials mentioned on the Tu
 
 If all goes well, you are now ready to write your first test. Start by editing the file features/my_first.feature.
 
-###
+
