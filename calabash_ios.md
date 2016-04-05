@@ -39,3 +39,14 @@ If all goes well, you are now ready to write your first test. Start by editing t
   - ```query("button index:0 label")``` - get labels that is child of firt button 
   
   - ```query("view marked:'switch'")``` - get views that has accessibility label 'switch'
+   
+  - To wait for element to apear, use: ```wait_for_element_exists("webView marked:'hello'")```
+
+- [WebView support](https://github.com/calabash/calabash-ios/wiki/06-WebView-Support#marked-api)
+ 
+  - prefix query with ```webView```
+  - you can use css, xpath or text selectors
+  
+    - ```query("webView css:'input[placeholder=hello]'")``` - css
+    
+    - ```query("webView marked:'some text'")``` - text
