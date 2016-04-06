@@ -9,6 +9,7 @@
   sudo gem install fastlane --verbose  
   sudo gem install scan
   ```
+  
 ### Plan configuration:
 
 - variables:
