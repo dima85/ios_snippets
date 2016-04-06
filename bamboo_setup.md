@@ -110,5 +110,16 @@
 
   osascript -e 'tell app "Simulator" to quit'
   ```
+
 ### Calabash integration with bamboo
 - Add device uuid variable to plan: ```device_uuid = your device id```
+- Add 'Run tests step' with following script:
+  ```
+  export PATH=/usr/local/opt/ruby/bin:/usr/local/bin:$PATH
+
+  export LANG=en_US.UTF-8
+  export LANGUAGE=en_US.UTF-8
+  export LC_ALL=en_US.UTF-8
+
+  DEVICE_TARGET=$bamboo_device_uuid cucumber --tags @landing
+  ```
