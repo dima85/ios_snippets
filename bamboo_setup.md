@@ -27,6 +27,10 @@
   ```
   export PATH=/usr/local/opt/ruby/bin:/usr/local/bin:$PATH
   
+  export LANG=en_US.UTF-8
+  export LANGUAGE=en_US.UTF-8
+  export LC_ALL=en_US.UTF-8
+  
   pod install
   ```
 - Erase simulator data
