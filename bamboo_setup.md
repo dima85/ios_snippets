@@ -110,3 +110,5 @@
 
   osascript -e 'tell app "Simulator" to quit'
   ```
+### Calabash integration with bamboo
+- Add device uuid variable to plan: ```device_uuid = your device id```
