@@ -29,6 +29,8 @@ text.appendAttributedString(noRiskTextValue)
 
 ### Calculate size/height of multiline label
 ```
+extension UILabel {
+    
     static func requiredSize(width:CGFloat, text:String, font:UIFont) -> CGSize{
         
         let label:UILabel = UILabel(frame: CGRectMake(0, 0, width, CGFloat.max))
@@ -61,4 +63,5 @@ text.appendAttributedString(noRiskTextValue)
         let height = label.frame.height
         return height
     }
+}
  ```
