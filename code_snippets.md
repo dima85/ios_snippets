@@ -26,3 +26,39 @@ var noRiskTextValue = NSAttributedString(string: " Kein Risiko: Vertrag ist 14 T
 text.appendAttributedString(noRiskTextValue)
  
 ```
+
+### Calculate size/height of multiline label
+```
+    static func requiredSize(width:CGFloat, text:String, font:UIFont) -> CGSize{
+        
+        let label:UILabel = UILabel(frame: CGRectMake(0, 0, width, CGFloat.max))
+        label.numberOfLines = 0
+        label.lineBreakMode = NSLineBreakMode.ByWordWrapping
+        label.font = font
+        label.text = text
+        
+        label.sizeToFit()
+        
+        return label.frame.size
+    }
+    
+    static func requiredWidth(text:String, font:UIFont) -> CGFloat {
+        return requiredSize(10000, text:text, font:font).width
+    }
+    
+    static func requiredHeight(width:CGFloat, text:String, font:UIFont) -> CGFloat {
+        return requiredSize(width, text:text, font:font).height
+    }
+    
+    static func requiredHeight(width:CGFloat, attributedText:NSAttributedString, font:UIFont) -> CGFloat{
+        
+        let label:UILabel = UILabel(frame: CGRectMake(0, 0, width, 0))
+        label.numberOfLines = 0
+        label.lineBreakMode = NSLineBreakMode.ByWordWrapping
+        label.font = font
+        label.attributedText = attributedText
+        label.sizeToFit()
+        let height = label.frame.height
+        return height
+    }
+ ```
